@@ -1,0 +1,111 @@
+*{
+    margin:0;
+}
+@font-face{
+    font-family: "GOT";
+    src: url("Game of Thrones.ttf");
+}
+
+
+
+
+
+.main_wrapper{
+    height: 100vh;
+    background-color: #0F0F13;
+    background-image: url(img/background_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+}
+
+nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding: 30px 5px 5px 40px;
+    align-items: flex-end;
+    height: 60px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    color: aliceblue;
+    list-style-type: none;
+    font-size: 20px;    
+    padding-left: 0;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+ul li:before{
+    content:"";
+    background-image: url('/img/star.svg');
+    background-size: 25px 25px;
+    display: inline-block;
+    width: 25px; 
+    height: 25px;
+    content:"";
+}
+.second_wrap{
+    padding-left: 75px;
+    padding-top: 125px;
+}
+.second_wrap h1{
+    color: white;
+    font-family: GOT, serif;
+    letter-spacing: 5px;
+}
+p{
+    color:white;
+    font-family: Arial,sans-serif;
+    font-size: 19px;
+    width: 400px;
+}
+p{
+    padding-bottom: 20px;
+}
+.btn{
+    margin-top: 20px;
+    background-color: white;
+    width:320px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor:pointer;
+}
+.third_wrapper{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px 30px 40px;
+    align-items: flex-end;
+}
+.third_wrapper img{
+    width: 400px;
+    height: auto;
+    border:5px solid black;
+}
+.third_wrapper img:hover{
+   border:5px solid blue;
+   transition: all 1s;
+   margin-bottom: 5px;
+}
+h3{
+    color:white;
+    font-family: Arial, serif;
+    font-size: 25px;
+    padding: 42px;
+}
