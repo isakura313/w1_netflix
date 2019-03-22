@@ -5,16 +5,11 @@
     font-family: "GOT";
     src: url("Game of Thrones.ttf");
 }
-
-
-
-
-
 .main_wrapper{
     height: 100vh;
     background-color: #0F0F13;
     background-image: url(img/background_image.png);
-    background-size: contain;
+    background-size: contain ;
     background-repeat: no-repeat;
     background-position: 80% center;
 }
@@ -33,30 +28,32 @@ nav a{
     font-family: Arial;
     font-size: 18px;
 }
-
 ul{
     display: flex;
-    width: 200px;
+    width: 220px;
     justify-content: space-around;
+    align-items: center;
     color: aliceblue;
     list-style-type: none;
-    font-size: 20px;    
-    padding-left: 0;
-    padding-bottom: 15px;
-    padding-top: 25px;
+    font-size: 20px;  
+    padding: 25px 0 15px 0;  
 }
 ul li:before{
     content:"";
     background-image: url('/img/star.svg');
-    background-size: 25px 25px;
+    background-size: 25px;  
     display: inline-block;
     width: 25px; 
     height: 25px;
     content:"";
 }
+span{
+    color: white;
+    padding-left: 15px;
+    display: inline-block;
+}
 .second_wrap{
-    padding-left: 75px;
-    padding-top: 125px;
+    padding: 125px 0 0 75px;
 }
 .second_wrap h1{
     color: white;
@@ -68,8 +65,6 @@ p{
     font-family: Arial,sans-serif;
     font-size: 19px;
     width: 400px;
-}
-p{
     padding-bottom: 20px;
 }
 .btn{
@@ -86,26 +81,23 @@ p{
     font-size: 16px;
     cursor:pointer;
 }
-.third_wrapper{
-    margin-top: 75px;
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 40px 30px 40px;
-    align-items: flex-end;
-}
-.third_wrapper img{
-    width: 400px;
-    height: auto;
-    border:5px solid black;
-}
-.third_wrapper img:hover{
-   border:5px solid blue;
-   transition: all 1s;
-   margin-bottom: 5px;
-}
 h3{
     color:white;
     font-family: Arial, serif;
     font-size: 25px;
-    padding: 42px;
+    padding: 50px 0 20px 84px;
 }
+.third_wrapper{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: flex-end;
+    width: 95%;
+}
+.third_wrapper img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
