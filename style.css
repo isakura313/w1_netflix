@@ -46,7 +46,6 @@ ul li:before{
     display: inline-block;
     width: 25px; 
     height: 25px;
-    content:"";
 }
 span{
     color: white;
