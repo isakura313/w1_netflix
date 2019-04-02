@@ -1,20 +1,23 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
-@font-face{
+
+@font-face {
     font-family: "GOT";
     src: url("Game of Thrones.ttf");
 }
-body{
-    height: 100vh;
+
+body {
     background: url('img/background_image.png') no-repeat;
     background-size: contain;
     background-position: 80% center;
     background-color: #0F0F13;
-    font-family: Arial,serif;
+    font-family: Arial, serif;
+    color: white;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -22,72 +25,77 @@ nav{
     height: 60px;
     padding: 30px 5px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:white;
     font-size: 18px;
+    color: white;
 }
-ul{
+
+.first_wrapper {
+    padding: 125px 0 0 75px;
+}
+
+ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 220px;
     list-style-type: none;
-    font-size: 20px;  
-    padding: 25px 0 15px 0;  
+    font-size: 20px;
+    padding: 25px 0 15px 0;
 }
-ul li:before{
-    content:"";
+
+ul li:before {
+    content: "";
     background-image: url('img/star.svg');
-    background-size: 25px;  
+    background-size: 25px;
     display: inline-block;
-    width: 25px; 
+    width: 25px;
     height: 25px;
 }
-span{
-    color: white;
+span {
     padding-left: 15px;
     display: inline-block;
 }
-.second_wrap{
-    padding: 125px 0 0 75px;
-}
-h1{
-    color: white;
+
+h1 {
     font-family: GOT, serif;
     letter-spacing: 5px;
 }
-p{
-    color:white;
+p {
     font-size: 19px;
     width: 400px;
     padding-bottom: 20px;
 }
-.btn{
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     background-color: white;
-    width:320px;
+    width: 320px;
     height: 52px;
     border-radius: 25px;
     font-weight: 600;
     font-size: 16px;
-    cursor:pointer;
+    cursor: pointer;
+    color: black;
 }
-h3{
-    color:white;
+
+h3 {
     font-size: 25px;
     padding: 50px 0 20px 84px;
 }
-.third_wrapper{
+
+.second_wrapper {
     margin-top: calc(100%/20);
     display: flex;
     justify-content: space-between;
     padding: 0px 40px;
     align-items: flex-end;
-    width: 95%;
-    position: relative;
-    top:10%;
+}
+
+.second_wrapper img {
+    size: 100%;
 }
